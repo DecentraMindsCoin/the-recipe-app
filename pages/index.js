@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Axios from "axios"
- 
+import Hotkeys from "../components/hotkeys";
+
 export default function Home() {
   
 
@@ -16,8 +17,9 @@ export default function Home() {
   
   return (
     <div>
-      <h1 onClick={getRecipes}>The recipe app</h1>
-      <input type="text" />
+      <h1 className="text-pink-500 font-bold" onClick={getRecipes}>The recipe app</h1>
+      <input type="text" className="border-2  rounded-full cursor pointer" />
+      <Hotkeys />
     </div>
   );
 }
