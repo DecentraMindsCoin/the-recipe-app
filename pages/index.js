@@ -84,8 +84,8 @@ export default function Home() {
                 <div className="bg-green-500 px-5 py-2">+</div>
               </div>
               <div>
-                <button></button>
-                {!comments && <div><p>comments</p><textarea value={comments} placeholder="leave comment" className="w-full h-20 border-gray-300 border-2 px-3 py-2 "  /></div>}
+                {/* <button></button>
+                {!comments && <div><p>comments</p><textarea value={comments} placeholder="leave comment" className="w-full h-20 border-gray-300 border-2 px-3 py-2 "  /></div>} */}
               </div>
             </div>
           );
